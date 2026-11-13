@@ -1,0 +1,41 @@
+id,answer,why
+q01,b,Integrity is about the information staying accurate and unaltered.
+q02,c,Risk is the chance a threat uses a weakness and causes harm.
+q03,b,The missing patch is the weakness. The actor who might use it is the threat.
+q04,b,Act 1038 establishes the Cyber Security Authority and regulates cybersecurity activities.
+q05,b,Act 843 establishes the Data Protection Commission and the data-protection principles.
+q06,b,"Act 772 covers electronic transactions and cyber offences, including unauthorised access or interception."
+q07,b,The directive applies to regulated financial institutions. Read the current text on the Bank of Ghana site before quoting it.
+q08,b,Testing stays inside systems you are allowed to test.
+q09,a,"192.168.0.0/16 is private. 203.0.113.0/24 is documentation space, not private use."
+q10,c,A /24 keeps the first three octets as the network.
+q11,b,"256 total addresses, minus network and broadcast, leaves 254."
+q12,a,::1 is loopback. fe80::/10 is link-local. ff00::/8 is multicast.
+q13,c,HTTPS is TCP 443. HTTP is 80. RDP is 3389.
+q14,a,SSH is TCP 22. DNS is 53. SMB is 445.
+q15,c,IP is a network-layer protocol. TCP is transport. HTTP is application.
+q16,a,TCP sets up a connection and retransmits lost data. UDP does not.
+q17,b,Host-only is the contained lab network used in this portfolio.
+q18,b,Least privilege limits damage when an account is misused.
+q19,a,A backup job that has never been restored may fail when you need it.
+q20,b,shadow holds password hashes and should not be readable by everyone.
+q21,b,Read-only means it does not change the machine.
+q22,b,A student gap checklist is study material. It does not certify an organisation.
+q23,b,This portfolio uses score = likelihood times impact.
+q24,b,"The Week 4 crisis simulation is a discussion, with a decision log."
+q25,c,"Secure development is a set of gates, not a final surprise review."
+q26,a,The Week 6 demo rejects a classic injection string because it is bound as data.
+q27,a,The browser then shows the text instead of treating it as a script.
+q28,b,Week 5 treats configuration as part of the application review.
+q29,b,A hash is one-way. Encryption is reversible with the key.
+q30,a,Salts make precomputed tables fail across users. Slow hashes such as scrypt raise the cost of guessing.
+q31,a,IPsec is another way to protect traffic. Week 7 compares the two.
+q32,a,Trust still depends on the issuer. A self-signed lab certificate is for practice.
+q33,b,"Factors are something you know, have, or are. Two passwords are still one factor type."
+q34,a,"Attribute-based access control can also consider context, such as location or time."
+q35,b,The Week 8 matrix asks you to spot duties that should be split.
+q36,a,Confirm the current page from the provider you actually use. Models differ at the edges.
+q37,b,The provider runs the application. The customer still owns identities and data handling.
+q38,b,Week 10 keeps testing inside the host-only lab named in the scope.
+q39,b,Triage comes before a confident incident call.
+q40,a,The scripts count and summarise. You decide what the result means.

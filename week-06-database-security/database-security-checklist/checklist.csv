@@ -1,0 +1,9 @@
+id,control,status,evidence
+D-01,Application queries send values as parameters,not-reviewed,db_access.py uses question marks. Mark met only after you have read it.
+D-02,Database accounts are not shared,not-reviewed,
+D-03,The application account is not a database administrator,not-reviewed,
+D-04,The permission matrix matches the code,not-reviewed,Compare permission-matrix.csv with seed_lab
+D-05,Errors shown to users do not include raw SQL,not-reviewed,
+D-06,Backups are tested,not-reviewed,Point at the recovery plan result
+D-07,Personal data is not in the sample database,not-reviewed,The demo users are analyst and admin with fake secrets
+D-08,Admin grants would show up in a log,not-reviewed,"Say where. If nowhere, this is a gap"

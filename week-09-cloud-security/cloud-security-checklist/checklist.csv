@@ -1,0 +1,9 @@
+id,control,status,what_you_checked,notes
+CL-01,"The account has MFA, or the paper review says MFA is unavailable",not-reviewed,,
+CL-02,There is no standing root or owner key in a repository,not-reviewed,,
+CL-03,Logging or an audit trail is available and you know who can read it,not-reviewed,,
+CL-04,You can name the region or country where the data sits,not-reviewed,,
+CL-05,Admin interfaces are not open to the whole internet without a reason,not-reviewed,,
+CL-06,A shared password is not used for the tenant,not-reviewed,,
+CL-07,You know how to export or delete your data,not-reviewed,,
+CL-08,The provider and the customer jobs are written next to the Week 9 matrix,not-reviewed,,

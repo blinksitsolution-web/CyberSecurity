@@ -1,0 +1,25 @@
+title: Account added to local Administrators
+id: b31c5e77-80a2-4d64-9c08-15f6a2d90ab4
+status: experimental
+description: >
+  Selects Security event 4732 when the group is Administrators.
+  Event 4732 is a member added to a security-enabled local group.
+  Confirm the member name in your own export before you call it an incident.
+author: Replace with your name
+date: 2026/11/13
+references:
+  - https://attack.mitre.org/techniques/T1098/
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4732
+    GroupName: Administrators
+  condition: selection
+falsepositives:
+  - Planned local admin creation in the lab build sheet
+level: high
+tags:
+  - attack.persistence
+  - attack.t1098

@@ -1,0 +1,15 @@
+<!--
+  Lab starter for the Windows VM only.
+  An empty exclude list logs the event type instead of filtering it out.
+  That is noisy. Do not copy this file onto a computer you use for everyday work.
+  Set schemaversion to the value your installed Sysmon expects if it complains.
+-->
+<Sysmon schemaversion="4.90">
+  <HashAlgorithms>sha256</HashAlgorithms>
+  <EventFiltering>
+    <ProcessCreate onmatch="exclude">
+    </ProcessCreate>
+    <NetworkConnect onmatch="exclude">
+    </NetworkConnect>
+  </EventFiltering>
+</Sysmon>

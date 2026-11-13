@@ -1,0 +1,23 @@
+title: Windows failed logon event 4625
+id: 9e2b6f40-3c18-4a55-b7d1-2f0c8a11e6d3
+status: experimental
+description: >
+  Selects Security event 4625. Use it with a threshold in the SIEM or in
+  log_triage.py. The sample CSV is synthetic.
+author: Replace with your name
+date: 2026/11/13
+references:
+  - https://attack.mitre.org/techniques/T1110/
+logsource:
+  product: windows
+  service: security
+detection:
+  selection:
+    EventID: 4625
+  condition: selection
+falsepositives:
+  - A forgotten password
+level: low
+tags:
+  - attack.credential_access
+  - attack.t1110

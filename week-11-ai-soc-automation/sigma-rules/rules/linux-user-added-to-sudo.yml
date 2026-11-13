@@ -1,0 +1,25 @@
+title: Linux account added to the sudo group
+id: 7a1d9c22-11e4-4b70-8f33-6c2a0e9d44b2
+status: experimental
+description: >
+  Selects a log line that records an account being added to the sudo group.
+  Map it to a new local administrator in the home lab, then confirm the
+  change was authorised.
+author: Replace with your name
+date: 2026/11/13
+references:
+  - https://attack.mitre.org/techniques/T1098/
+logsource:
+  product: linux
+  service: auth
+detection:
+  keywords:
+    - to group 'sudo'
+  condition: keywords
+falsepositives:
+  - An administrator adding a lab account during class
+level: high
+tags:
+  - attack.persistence
+  - attack.privilege_escalation
+  - attack.t1098

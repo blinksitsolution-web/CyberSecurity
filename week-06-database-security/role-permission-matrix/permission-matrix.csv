@@ -1,0 +1,10 @@
+role,action,allowed,why
+analyst,read_ticket,yes,An analyst reads the ticket they are working
+analyst,create_user,no,Creating accounts is not part of triage
+analyst,export_all_customers,no,A full export is not needed to handle one ticket
+admin,read_ticket,yes,An admin may need to see a ticket while supporting access
+admin,create_user,yes,Account creation is an admin job and should be logged
+admin,export_all_customers,no,Even admins do not get a standing full export
+dba,read_ticket,yes,A dba may need a row to repair integrity
+dba,create_user,no,In this lab the dba repairs the engine. Admins create people
+dba,export_all_customers,no,"A restore drill uses a backup, not a casual export"

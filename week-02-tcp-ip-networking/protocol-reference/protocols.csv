@@ -1,0 +1,21 @@
+name,port,transport,osi_layer,tcp_ip_layer,purpose,soc_note,source
+DHCP,67/68,UDP,Application,Application,Gives a host an address,A new host on the lab network should get the address you planned,reference
+DNS,53,UDP/TCP,Application,Application,Turns names into addresses,Odd DNS from a lab VM is worth a second look. Do not query domains you do not have a reason to touch,reference
+HTTP,80,TCP,Application,Application,Web traffic without TLS,Port 80 on a management page is a reason to ask why TLS is missing,reference
+HTTPS,443,TCP,Application,Application,Web traffic with TLS,The Wazuh dashboard is often reached over HTTPS. Confirm the port in your install guide,reference
+SSH,22,TCP,Application,Application,Remote shell,Week 3 checks that root SSH login is off,reference
+RDP,3389,TCP,Application,Application,Windows remote desktop,Keep RDP on the host-only lab network. Do not publish 3389 to the internet,reference
+SMB,445,TCP,Application,Application,Windows file sharing,Unexpected SMB toward the internet is a classic alert. This sheet does not ask you to probe SMB,reference
+LDAP,389,TCP,Application,Application,Directory queries,You will meet it again beside identity in Week 8,reference
+LDAPS,636,TCP,Application,Application,LDAP with TLS,Prefer the TLS version when a directory crosses a network,reference
+Kerberos,88,TCP/UDP,Application,Application,Ticket-based authentication,Failed Kerberos shows up in Windows security logs,reference
+SMTP,25,TCP,Application,Application,Sends mail,Useful context for phishing mail you analyse defensively in Week 10,reference
+NTP,123,UDP,Application,Application,Clock sync,Log times are hard to trust if clocks drift,reference
+Syslog,514,UDP/TCP,Application,Application,Ships log lines,One way hosts send logs. Your lab may use an agent instead,reference
+Wazuh-agent,1514/1515,TCP,Application,Application,Agent enrolment and events to the manager,Plan these on 192.168.56.10. Confirm ports in the Wazuh version you install,reference
+MySQL,3306,TCP,Application,Application,Database service,Week 6 is about who can reach a database and how queries are built,reference
+PostgreSQL,5432,TCP,Application,Application,Database service,Same question as MySQL: do not expose it beyond the lab,reference
+WinRM,5985/5986,TCP,Application,Application,Windows remote management,5986 is the HTTPS variant. Treat it as admin access,reference
+"IP (no port)",,"the packet itself",Network,Internet,Addresses and routing,A wrong mask or gateway breaks the path before a port matters,reference
+"TCP (no single port)",,"segments",Transport,Transport,Reliable byte stream,Logs may show a completed handshake or only a failed attempt,reference
+"UDP (no single port)",,"datagrams",Transport,Transport,Short messages without a connection,DNS and DHCP use it. Loss looks different from a TCP reset,reference

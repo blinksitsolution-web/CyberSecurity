@@ -1,0 +1,9 @@
+phase,security_task,where_it_shows_up_this_term,status,your_note
+Requirements,Write what the feature must not do as well as what it must do,Week 1 scope and ethics cases,not-started,
+Design,"Decide where trust ends: browser, server, database, admin",Week 2 boundaries and Week 6 roles,not-started,
+Build,Validate input and keep queries parameterised,Weeks 5 and 6 code,not-started,
+Build,Encode untrusted text before it is placed in HTML,Week 5 safe_input.py,not-started,
+Test,Review the unsafe pattern and show the safe function's test,pytest for safe_input.py,not-started,
+Release,Turn off debug output and default passwords,Week 5 configuration checklist,not-started,
+Operate,Log security-relevant failures without storing secrets,Week 3 logging and Week 11 triage,not-started,
+Maintain,Patch the platform and re-check the baseline,Week 3 checklist,not-started,
