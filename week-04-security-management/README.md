@@ -15,6 +15,8 @@ Topics: risk management, ISO 27001 and governance controls, compliance, and a cr
 
 The weekly submission is all four: Risk Assessment Sprint, Spot the Gap, Crisis Simulation, and the role-playing audit.
 
+Hands-on lab: [Lab 04](lab-04-iso-gap-and-tabletop/) and the [trainee PDF](lab-04-iso-gap-and-tabletop/LAB-04-iso-gap-and-tabletop.pdf).
+
 ## Practical platform: GRC Lab
 
 Do these four projects in the [GRC Lab](https://grclab.purplecop.io/lab). Each project folder has a place to record the date, what you completed, and the screenshot or export you saved. Do not invent that evidence.

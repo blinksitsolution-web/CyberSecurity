@@ -1,0 +1,6 @@
+# Synthetic access log. Not from a server you run.
+192.168.56.20 - - [13/Nov/2026:10:00:01 +0000] "GET /health HTTP/1.1" 200 12
+192.168.56.20 - - [13/Nov/2026:10:01:14 +0000] "GET /search?q=notebook HTTP/1.1" 200 840
+192.168.56.20 - - [13/Nov/2026:10:04:22 +0000] "GET /search?q=%3Cscript%3E HTTP/1.1" 200 900
+192.168.56.20 - - [13/Nov/2026:10:05:01 +0000] "GET /search?q=<script> HTTP/1.1" 200 900
+192.168.56.20 - - [13/Nov/2026:10:06:40 +0000] "GET /static/app.css HTTP/1.1" 200 2200

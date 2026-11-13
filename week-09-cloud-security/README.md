@@ -16,3 +16,5 @@ Topics: public, private, and hybrid cloud; SaaS, PaaS, IaaS, SECaaS, and IDaaS; 
 The weekly submission is the checklist and the risk register. The other two folders are Monday and Tuesday's assignments, and they stop the checklist from floating free of a model.
 
 The shared-responsibility matrix, the cloud checklist, and the cloud risk register are done in the [GRC Lab](https://grclab.purplecop.io/lab). Keep your own evidence in those project folders.
+
+Hands-on lab: [Lab 09](lab-09-cloud-iam-and-logging/) and the [trainee PDF](lab-09-cloud-iam-and-logging/LAB-09-cloud-iam-and-logging.pdf).

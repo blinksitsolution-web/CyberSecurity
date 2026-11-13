@@ -83,6 +83,10 @@ You should see passing tests for addressing, the read-only audit, safe input han
 
 Private keys are ignored by `.gitignore` (`*.key`, `*.p12`, `*.pfx`). Do not commit passwords, agent enrolment tokens, or logs that contain personal data.
 
+## Trainee lab guides
+
+Twelve PDF labs, one per week, are listed in [labs/README.md](labs/README.md) with a skills map. Follow the PDF. The tutor answer key is a separate file and is not inside the PDF. Rebuild with `python3 labs/build_pdfs.py` if you change a `LAB-*.md` source. That requires Pandoc and WeasyPrint.
+
 ## Resources and tools
 
 - **GRC Lab** — practical platform for the governance, risk, and compliance exercises in this portfolio: [https://grclab.purplecop.io/lab](https://grclab.purplecop.io/lab). Complete the exercise there, then save your own screenshots or exports in the project folder. Those files are not filled in for you.

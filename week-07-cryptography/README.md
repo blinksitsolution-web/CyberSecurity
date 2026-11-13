@@ -14,3 +14,5 @@ Topics: symmetric and asymmetric encryption, key management, data at rest and in
 | Secure communications | [secure-communications](secure-communications/) | A plain explanation of TLS and IPsec |
 
 The weekly submission is all four.
+
+Hands-on lab: [Lab 07](lab-07-openssl-pki-tls/) and the [trainee PDF](lab-07-openssl-pki-tls/LAB-07-openssl-pki-tls.pdf).

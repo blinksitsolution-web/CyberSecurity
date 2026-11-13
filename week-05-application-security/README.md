@@ -15,3 +15,5 @@ Topics: the software development life cycle, insecure input, cross-site scriptin
 | Secure code review | [secure-code-review](secure-code-review/) | The weekly review, with the runnable safe functions |
 
 The weekly submission is one safe code and application review. The other folders are the daily assignments that feed it.
+
+Hands-on lab: [Lab 05](lab-05-web-logs-and-appsec/) and the [trainee PDF](lab-05-web-logs-and-appsec/LAB-05-web-logs-and-appsec.pdf).
