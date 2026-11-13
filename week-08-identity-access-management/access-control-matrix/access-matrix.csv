@@ -1,0 +1,6 @@
+role,view_alerts,close_own_ticket,tune_detection_rule,create_local_admin,approve_local_admin,read_customer_export,model,note
+analyst,allow,allow,deny,deny,deny,deny,RBAC,Need-to-know stops at the tickets they handle
+senior analyst,allow,allow,allow,deny,deny,deny,RBAC,Can propose a rule change. Cannot grant admin
+platform admin,allow,deny,deny,allow,deny,deny,RBAC,Can prepare an account. Approval is a different role
+team lead,allow,allow,deny,deny,allow,deny,RBAC,Approves admin creation. Does not also create it in this matrix
+on-call analyst,allow,allow,allow,deny,deny,deny,ABAC,"Same person as analyst, but only while the on-call attribute is true. Outside on-call the tune permission drops"

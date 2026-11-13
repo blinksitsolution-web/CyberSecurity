@@ -1,0 +1,9 @@
+control_id,theme,status,evidence,data_label
+ORG-01,policies,met,Sample only: a one-page lab policy exists in the week 4 folder.,synthetic-sample
+ORG-02,asset inventory,partial,Sample only: the lab address plan lists VMs but not the laptop.,synthetic-sample
+ORG-03,incident contacts,gap,Sample only: no out-of-band contact is written down.,synthetic-sample
+PEO-01,awareness,not-reviewed,Sample only: leave this until you add your own note.,synthetic-sample
+PHY-01,screen lock,met,Sample only: checklist says screen lock is required. Confirm on your VM.,synthetic-sample
+TEC-01,backups,gap,Sample only: no restore test is recorded yet.,synthetic-sample
+TEC-02,logging,partial,Sample only: Wazuh is planned in week 3 and not evidenced here.,synthetic-sample
+TEC-03,privileged access,not-reviewed,Sample only: waiting for your access-matrix notes.,synthetic-sample

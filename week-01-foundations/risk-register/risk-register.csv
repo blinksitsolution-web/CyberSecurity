@@ -1,0 +1,9 @@
+id,asset,threat,vulnerability,existing_control,cia,likelihood_1_to_5,impact_1_to_5,owner,status,example,notes
+R-01,Study-hub laptops,Theft of an unattended laptop,Disk is not encrypted,Screen lock only,Confidentiality,3,4,Lab lead,example only,yes,Teaching row for a fictional study hub. Not a real finding.
+R-02,Shared lab password,Someone reuses or shares the password,One password is used by the whole class,None recorded,Confidentiality,4,3,Lab lead,example only,yes,Teaching row. Replace with your own account design in Week 8.
+R-03,Student contact spreadsheet,Loss or quiet change of the file,No tested backup and no edit history,A copy on one laptop,Integrity,3,4,Note-taker,example only,yes,Teaching row. Availability matters here too.
+R-04,Class email,A message that tricks someone into clicking,People have not practised how to check a sender,A short verbal warning,Integrity,4,3,Coordinator,example only,yes,Teaching row. Defensive recognition is Week 10.
+R-05,Browser on the lab laptop,A hostile site abuses an old browser,Security updates are not on a schedule,Updates are manual and often skipped,Integrity,3,3,Lab lead,example only,yes,Teaching row. Patching is a Week 3 control.
+R-06,Home Wi-Fi used for class,An unknown device joins the same network as the VMs,Lab VMs are bridged onto the home network,None in this example,Confidentiality,2,4,Lab lead,example only,yes,Teaching row. Week 2 puts the lab on host-only instead.
+R-07,Your asset,,,,,,,,,no,Replace this row. Leave scores blank rather than inventing a number.
+R-08,Your asset,,,,,,,,,no,Add another row if you need it.

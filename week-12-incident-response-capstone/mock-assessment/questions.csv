@@ -1,0 +1,41 @@
+id,question,option_a,option_b,option_c,option_d,topic
+q01,A classmate changes a saved grade without permission. Which CIA property is broken first?,Confidentiality,Integrity,Availability,Authentication,Week 1 CIA
+q02,"Which sentence is a risk, rather than a threat or a vulnerability?",An unlocked laptop is left in a classroom,A thief who steals unattended laptops,The chance a stolen laptop exposes student data because the disk is not encrypted,A firewall rule,Week 1 risk
+q03,A missing security patch is best recorded as what?,A threat actor,A vulnerability,A treatment,An incident report,Week 1 risk
+q04,"Ghana's Cybersecurity Act, 2020 (Act 1038) established which body?",The Data Protection Commission,The Cyber Security Authority,The Bank of Ghana,The Electoral Commission,Week 1 Ghana law
+q05,"The Data Protection Act, 2012 (Act 843) is mainly about what?",Licensing radio stations,Privacy and the processing of personal data,Building road networks,Company tax rates,Week 1 Ghana law
+q06,"The Electronic Transactions Act, 2008 (Act 772) is relevant to a lab student because it includes what?",Rules only for paper contracts,Offences such as unauthorised access to electronic records,A requirement to use a particular antivirus brand,Bank interest-rate caps,Week 1 Ghana law
+q07,Who is the Bank of Ghana Cyber and Information Security Directive written for first?,Every household in Ghana,Institutions the Bank of Ghana regulates,Only university students,Only mobile-phone shops,Week 1 Ghana law
+q08,A friend asks you to scan the school Wi-Fi to see what you can find. What fits this portfolio's rule?,Scan quietly and delete the results,Refuse until there is written permission and a defined scope,Scan only the routers whose names look interesting,Post the results in a class chat,Week 1 ethics
+q09,Which range is private IPv4 address space?,192.168.0.0/16,8.8.8.0/24,1.1.1.0/24,203.0.113.0/24 is private,Week 2 addressing
+q10,What is the network address of 10.1.2.5/24?,10.1.2.5,10.1.2.255,10.1.2.0,10.1.0.0,Week 2 addressing
+q11,How many usable IPv4 host addresses are in a normal /24?,256,254,255,24,Week 2 addressing
+q12,Which address is the IPv6 loopback?,::1,fe80::1,2001:db8::1,ff02::1,Week 2 IPv6
+q13,Which port do you expect for HTTPS?,23,80,443,3389,Week 2 protocols
+q14,Which port do you expect for SSH?,22,53,445,1514,Week 2 protocols
+q15,"In the OSI model, IP addressing belongs to which layer?",Physical,Data link,Network,Application,Week 2 models
+q16,What is a fair beginner description of TCP compared with UDP?,TCP is connection-oriented and recovers lost segments,TCP is only used for video,UDP always encrypts the payload,TCP has no port numbers,Week 2 models
+q17,What does a VirtualBox host-only network give you?,A direct route from the virtual machines onto every device in the house,"A network where the virtual machines and the laptop can talk, without joining the home LAN by itself",A public address on the internet,A guarantee that the guest cannot reach the host,Week 2 lab network
+q18,Least privilege means what?,Every analyst is a local administrator,People and services get only the access the task needs,Passwords are shared so work is faster,One shared break-glass account is used daily,Week 3 and 8 least privilege
+q19,"Why does this portfolio ask you to test a restore, not only to copy files?",A copy you have never restored is still an unverified hope,Restore tests delete the original on purpose,Backups are illegal without a licence,Only databases can be backed up,Week 3 backups
+q20,A world-readable /etc/shadow file is a problem because what?,It stops the computer booting,Any local user may be able to read password hashes,It disables SSH,It encrypts the disk,Week 3 hardening
+q21,The Week 3 hardening audit is safe to run because it does what?,Applies CIS settings automatically,"Only reads files and reports pass, fail, review, or skip",Opens every port for testing,Emails the results to a vendor,Week 3 hardening
+q22,ISO/IEC 27001 is best described as what?,A malware sample library,An information-security management system standard,A Linux distribution,A law passed by Parliament of Ghana,Week 4 ISO 27001
+q23,"On a 1 to 5 scale, likelihood 4 and impact 5 multiply to what score?",9,20,45,4,Week 4 risk
+q24,A tabletop exercise is what?,A live attack against production,A discussion where people practise decisions,A full disk wipe,A password-cracking contest,Week 4 tabletop
+q25,Where do security activities belong in the SDLC?,Only after the product is live,Only in the last week of testing,"Through requirements, design, build, test, release, and maintenance",Only in the legal team,Week 5 SDLC
+q26,Parameterised queries help prevent which failure?,"SQL injection, because input is sent as data",Broken screens,Power cuts,Lost backups,Week 6 injection
+q27,Encoding untrusted text before placing it in HTML helps prevent what?,Cross-site scripting,Disk failure,IPv6 exhaustion,Certificate expiry,Week 5 XSS
+q28,A public training site still running with debug mode and a default password is what?,A secure default,An insecure configuration,A cryptographic algorithm,A physical control,Week 5 configuration
+q29,A cryptographic hash is best used for what?,Hiding a message so the same function decrypts it,Checking whether data changed,Replacing TLS,Storing the encryption key in the hash,Week 7 hashing
+q30,A unique salt on a password hash mainly slows which shortcut?,Reusing one precomputed table of common passwords against every user,"Brute force on a single slow hash for one user, completely",Phishing,Shoulder surfing,Week 7 hashing
+q31,TLS is first a control for data in which state?,Data in transit,Data thrown away,Data printed on paper only,Data the backup job already deleted,Week 7 TLS
+q32,A digital certificate is evidence of what kind of binding?,"A public key and an identity, inside a trust model",A user's password and their birthday,A private key published in a README,A firewall rule and a port,Week 7 certificates
+q33,Multi-factor authentication means what?,Two passwords from the same sticky note,"Evidence from more than one factor, such as a password and a phone prompt",A longer password only,Sharing one account between a team,Week 8 MFA
+q34,Role-based access control grants access mainly by what?,The job role a person holds,The colour of their laptop,The time zone of the vendor only,A shared administrator password,Week 8 access control
+q35,Separation of duties helps when what is true?,One person can create a payment and approve it alone,The person who requests a privileged change is not the only person who approves it,Everyone uses the same account,Logging is turned off,Week 8 separation of duties
+q36,"In the usual IaaS shared-responsibility model, who patches the guest operating system?",The customer,The power company,Nobody,The domain registrar,Week 9 cloud
+q37,"For a typical SaaS mailbox, which duties stay with the customer?",Building the vendor's hypervisor,Who may access the mail and how customer data is shared,Designing the vendor's disks,Writing the vendor's kernel,Week 9 cloud
+q38,An authorised vulnerability assessment in this portfolio starts with what?,A tool launched at a random company,"Written scope, permission, a time window, and out-of-scope systems",A public exploit forum,A scan of the home router you share with family,Week 10 authorised testing
+q39,A useful first SOC habit with a new alert is what?,Declare a major incident in the group chat immediately,"Read what the log actually shows, how often, and whether a detection matches it",Delete the log so the alert stops,Turn off the sensor,Week 11 and 12 SOC
+q40,Why does the Week 11 automation keep a human in the loop?,Models and scripts can misread a log or a control,The computer is not allowed to print text,Laws ban all automation,A SIEM cannot count events,Week 11 human review

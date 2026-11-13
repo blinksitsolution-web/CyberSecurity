@@ -1,0 +1,9 @@
+id,setting,why_it_matters,status,what_you_saw
+C-01,Debug or detailed errors shown to users,"Errors can reveal paths, queries, or versions",not-reviewed,
+C-02,Default or shared administrator password,Anyone who can read the manual can sign in,not-reviewed,
+C-03,Directory listing on a folder of uploads,People can browse files the app did not mean to link,not-reviewed,
+C-04,Admin pages reachable without a role check,A hidden URL is not access control,not-reviewed,
+C-05,Cookies without a Secure and HttpOnly decision,Session cookies are easier to steal or to read from script,not-reviewed,
+C-06,No security headers decision,Headers such as Content-Security-Policy are a second layer,not-reviewed,
+C-07,Secrets in a config file that is committed,The repository then holds the key,not-reviewed,
+C-08,HTTP used for a login page,The password crosses the network in clear text,not-reviewed,

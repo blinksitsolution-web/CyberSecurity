@@ -1,0 +1,6 @@
+model,what_it_is,customer_usually_handles,provider_usually_handles,confirm
+IaaS,Virtual machines and networks you configure,"Guest OS, identity on the guest, data, security groups you were given","Physical site, hypervisor, and the fabric under the VM",Read the provider page before you submit
+PaaS,A platform for an app you deploy,"Application code, data, and access to the app",The runtime and the platform under it,Read the provider page before you submit
+SaaS,A finished application,"Users, data you upload, and how you configure the app",The application and the stack under it,Read the provider page before you submit
+SECaaS,"A security service you subscribe to, such as filtering or log review","What you send them, how you respond, and whether the data may leave your control",The security service itself,Check the contract and Act 843 if personal data is included
+IDaaS,Identity as a service: the sign-in platform lives at a provider,"Who is allowed in, MFA policy, and which apps are connected",The identity platform's availability and its controls,Tie this back to the Week 8 journeys

@@ -1,0 +1,8 @@
+id,rule,why,status,where_it_is_enforced
+I-01,Primary keys are unique,Two users must not share one identity by accident,not-applied,
+I-02,Required fields cannot be null,A ticket without an owner is hard to investigate,not-applied,
+I-03,A foreign key points at a real row,A permission for a missing role should fail,not-applied,
+I-04,Sensitive values are not in git,Logs and dumps leak,not-applied,
+I-05,Passwords are stored as slow salted hashes if you store them at all,Week 7 covers scrypt. The Week 6 demo uses a fake secret and says so,not-applied,
+I-06,Backups are included in the integrity story,A correct database you cannot restore is still a loss,not-applied,
+I-07,Someone can tell who changed a privileged row,An admin grant without a trace is a SOC problem,not-applied,

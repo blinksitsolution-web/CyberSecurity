@@ -1,0 +1,6 @@
+id,asset,threat,vulnerability,likelihood,impact,score,treatment,owner,example,notes
+EX-1,Lab VM snapshots,A bad change with no way back,No snapshot taken before install,3,3,9,mitigate,Lab lead,yes,Teaching numbers for a fictional lab. Recalculate if you use this risk.
+EX-2,Class password list,The list is copied into chat,Secrets stored in the repository,4,4,16,avoid,Everyone,yes,Teaching numbers. Avoid means do not put the list in git at all.
+R-1,,,,,,,,,no,Your row. Leave score blank until likelihood and impact are yours.
+R-2,,,,,,,,,no,Your row.
+R-3,,,,,,,,,no,Your row.

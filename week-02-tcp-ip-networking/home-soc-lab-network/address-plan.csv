@@ -1,0 +1,5 @@
+hostname,role,address,prefix,adapter,status,notes
+host-only adapter,VirtualBox host,192.168.56.1,24,host-only,planned,Change this if your VirtualBox host-only address is different
+wazuh,Ubuntu Server and Wazuh,192.168.56.10,24,host-only,planned,Built in Week 3. Leave status planned until the VM exists
+win-endpoint,Windows Sysmon and Wazuh agent,192.168.56.20,24,host-only,planned,Built in Week 3
+kali,Authorised assessment VM,192.168.56.30,24,host-only,planned,Added in Week 10. No testing without the scope file

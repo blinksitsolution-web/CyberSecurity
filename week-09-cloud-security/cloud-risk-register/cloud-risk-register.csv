@@ -1,0 +1,5 @@
+id,service_reviewed,account_opened,asset,threat,vulnerability,likelihood,impact,score,treatment,owner,example,notes
+EX-1,Fictional shared SaaS mailbox,no,Class messages,A stolen password,MFA not turned on,4,3,12,mitigate,Mailbox owner,yes,Teaching scores for a fictional mailbox. Not your tenant.
+EX-2,Fictional shared SaaS mailbox,no,Contact details in old mail,Data kept forever,No retention decision,2,3,6,mitigate,Mailbox owner,yes,Teaching scores. Retention is a data-protection question under Act 843.
+C-1,,,Your asset,,,,, ,,,no,Replace this row after you pick a service.
+C-2,,,Your asset,,,,, ,,,no,Add a row if you need it.
