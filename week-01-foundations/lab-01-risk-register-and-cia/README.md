@@ -24,6 +24,15 @@ By the end of this lab you can:
 - No virtual machine. This lab is paper, a spreadsheet, and one script.
 - About two to three hours. The risk register fits the Wednesday practical. The cases fit the Friday ethics session.
 
+## Practical platform: GRC Lab
+
+Do the risk-register and CIA work in the [GRC Lab](https://grclab.purplecop.io/lab), then bring your own evidence back to this folder. This page does not describe the site. Do not invent screenshots or exports.
+
+- Date you used the GRC Lab:
+- What you completed there:
+- Screenshot or export saved in this folder:
+- What you still need to finish in the worksheets here:
+
 ## Scenario
 
 **Palm Court Stationery and Print** is a fictional shop in Takoradi. It is not a real business, and it is not your result.

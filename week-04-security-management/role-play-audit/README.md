@@ -8,6 +8,15 @@ Practise gathering evidence and explaining a finding without overstating it. Wed
 
 `audit-findings.md` is the working paper. It includes the questions an auditor can ask about this repository, and an empty findings table.
 
+## Practical platform: GRC Lab
+
+Do this practical in the [GRC Lab](https://grclab.purplecop.io/lab). When you finish an exercise there, save your own evidence in this folder. Do not invent screenshots or exports.
+
+- Date you used the GRC Lab:
+- What you completed there:
+- Screenshot or export file in this folder:
+- What you still need to finish in the files here:
+
 ## How to reproduce
 
 1. Swap roles at least once so you have asked and answered.

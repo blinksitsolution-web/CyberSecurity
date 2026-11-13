@@ -8,6 +8,15 @@ Build a risk register for one selected cloud service. Thursday's practical is th
 
 `cloud-risk-register.csv` has two teaching rows for a fictional decision, "a class uses a shared SaaS mailbox", marked `example=yes`. Blank rows are for the service you actually reviewed. Example scores are not measurements.
 
+## Practical platform: GRC Lab
+
+Do this practical in the [GRC Lab](https://grclab.purplecop.io/lab). When you finish an exercise there, save your own evidence in this folder. Do not invent screenshots or exports.
+
+- Date you used the GRC Lab:
+- What you completed there:
+- Screenshot or export file in this folder:
+- What you still need to finish in the files here:
+
 ## How to reproduce
 
 1. Set `service_reviewed` on your rows to the same name you used on the checklist.

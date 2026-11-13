@@ -40,7 +40,7 @@ def test_blanks_are_not_treated_as_zero(tmp_path):
     target = tmp_path / "blank.csv"
     target.write_text(BLANK, encoding="utf-8")
     before = target.read_bytes()
-    risks = load_risks(target)
+    risks = load_risks(target, root=tmp_path)
     assert all(risk["score"] is None for risk in risks)
     assert flagged(risks) == []
     report = render_report(risks, target)
@@ -57,7 +57,16 @@ def test_rejects_a_score_outside_the_scale(tmp_path):
         encoding="utf-8",
     )
     with pytest.raises(ValueError, match="1 to 5"):
-        load_risks(path)
+        load_risks(path, root=tmp_path)
+
+
+def test_refuses_files_outside_the_lab():
+    with pytest.raises(ValueError, match="outside"):
+        load_risks(Path("/etc/passwd"))
+    with pytest.raises(ValueError, match="outside"):
+        load_risks(Path("../../../etc/passwd.csv"))
+    with pytest.raises(ValueError, match="csv"):
+        load_risks(Path("README.md"))
 
 
 def test_report_names_a_high_asset():

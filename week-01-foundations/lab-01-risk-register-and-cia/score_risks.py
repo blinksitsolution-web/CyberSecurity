@@ -14,6 +14,7 @@ from pathlib import Path
 
 HIGH_SCORE = 12
 REQUIRED = ("id", "asset", "threat", "vulnerability", "likelihood", "impact")
+LAB_ROOT = Path(__file__).resolve().parent
 
 
 def band(score: int) -> str:
@@ -43,9 +44,27 @@ def parse_scale(value: str, field: str, row_id: str) -> int | None:
     return number
 
 
-def load_risks(path: Path) -> list[dict]:
+def csv_inside(path: Path, root: Path) -> Path:
+    """Resolve a CSV and refuse anything outside root.
+
+    The command line can name a file. It cannot point the reader at the
+    rest of the computer. Relative paths are resolved from root, which is
+    this lab folder unless a test passes a temporary root.
+    """
+    root_resolved = root.resolve()
+    requested = Path(path)
+    candidate = requested.resolve() if requested.is_absolute() else (root_resolved / requested).resolve()
+    if not candidate.is_relative_to(root_resolved):
+        raise ValueError(f"{path} is outside the allowed folder")
+    if candidate.suffix.lower() != ".csv":
+        raise ValueError(f"{path} must be a .csv file")
+    return candidate
+
+
+def load_risks(path: Path, root: Path | None = None) -> list[dict]:
     """Read risks. Extra columns are kept. Missing required columns are an error."""
-    with Path(path).open(newline="", encoding="utf-8") as handle:
+    safe = csv_inside(Path(path), root or LAB_ROOT)
+    with safe.open(newline="", encoding="utf-8") as handle:
         reader = csv.DictReader(handle)
         if reader.fieldnames is None:
             raise ValueError(f"{path} has no header row")
@@ -154,7 +173,11 @@ def render_report(risks: list[dict], source: Path) -> str:
 
 def main() -> None:
     parser = argparse.ArgumentParser(description="Score a Week 1 risk-register CSV")
-    parser.add_argument("csv_path", type=Path, help="Risk register CSV to read")
+    parser.add_argument(
+        "csv_path",
+        type=Path,
+        help="CSV inside this lab folder, for example risk-register-worksheet.csv",
+    )
     args = parser.parse_args()
     try:
         risks = load_risks(args.csv_path)

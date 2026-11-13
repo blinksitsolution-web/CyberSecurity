@@ -11,6 +11,15 @@ Score likelihood and impact, then choose a treatment: mitigate, avoid, transfer,
 
 Scores in the example rows are teaching numbers for a fictional lab, not a measurement.
 
+## Practical platform: GRC Lab
+
+Do this practical in the [GRC Lab](https://grclab.purplecop.io/lab). When you finish an exercise there, save your own evidence in this folder. Do not invent screenshots or exports.
+
+- Date you used the GRC Lab:
+- What you completed there:
+- Screenshot or export file in this folder:
+- What you still need to finish in the files here:
+
 ## How to reproduce
 
 1. Copy any Week 1 asset you still care about into a new row with `example=no`.

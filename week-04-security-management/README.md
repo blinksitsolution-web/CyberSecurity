@@ -14,3 +14,7 @@ Topics: risk management, ISO 27001 and governance controls, compliance, and a cr
 | Crisis tabletop | [tabletop-crisis-simulation](tabletop-crisis-simulation/) | Roles, decisions, and a decision log |
 
 The weekly submission is all four: Risk Assessment Sprint, Spot the Gap, Crisis Simulation, and the role-playing audit.
+
+## Practical platform: GRC Lab
+
+Do these four projects in the [GRC Lab](https://grclab.purplecop.io/lab). Each project folder has a place to record the date, what you completed, and the screenshot or export you saved. Do not invent that evidence.

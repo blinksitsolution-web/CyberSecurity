@@ -83,9 +83,14 @@ You should see passing tests for addressing, the read-only audit, safe input han
 
 Private keys are ignored by `.gitignore` (`*.key`, `*.p12`, `*.pfx`). Do not commit passwords, agent enrolment tokens, or logs that contain personal data.
 
+## Resources and tools
+
+- **GRC Lab** — practical platform for the governance, risk, and compliance exercises in this portfolio: [https://grclab.purplecop.io/lab](https://grclab.purplecop.io/lab). Complete the exercise there, then save your own screenshots or exports in the project folder. Those files are not filled in for you.
+
 ## What you still fill in
 
 - Every project's "What I learned" prompts and evidence lines
+- GRC Lab screenshots or exports for the governance exercises, saved in the project folder
 - Risk scores, audit results, and checklist statuses, only after you have done the work
 - Virtual-machine output: Wazuh version, agent id, hardening-audit text, restore tests
 - The Week 10 scope signatures, findings, and remediation rows

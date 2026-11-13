@@ -8,6 +8,15 @@ Review one cloud service against a short checklist and present the treatments on
 
 `checklist.csv` starts at `not-reviewed`. The rows cover identity, logging, data location, exposure, and backup. None are pre-ticked.
 
+## Practical platform: GRC Lab
+
+Do this practical in the [GRC Lab](https://grclab.purplecop.io/lab). When you finish an exercise there, save your own evidence in this folder. Do not invent screenshots or exports.
+
+- Date you used the GRC Lab:
+- What you completed there:
+- Screenshot or export file in this folder:
+- What you still need to finish in the files here:
+
 ## How to reproduce
 
 1. Name the service in the first rows you fill, in the notes.

@@ -11,6 +11,15 @@ Rehearse decisions, roles, and escalation in a discussion. You do not attack a s
 
 The story uses the same kind of signals as the Week 11 sample detections, but it is still a story. Do not file it as a real incident.
 
+## Practical platform: GRC Lab
+
+Do this practical in the [GRC Lab](https://grclab.purplecop.io/lab). When you finish an exercise there, save your own evidence in this folder. Do not invent screenshots or exports.
+
+- Date you used the GRC Lab:
+- What you completed there:
+- Screenshot or export file in this folder:
+- What you still need to finish in the files here:
+
 ## How to reproduce
 
 1. Assign the roles in the scenario. Five people is enough. Fewer people can hold two roles.

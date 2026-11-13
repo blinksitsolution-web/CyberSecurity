@@ -8,6 +8,15 @@ Compare evidence you actually have with a short control checklist. Tuesday's pra
 
 `gap-checklist.csv` lists 16 study topics paraphrased in plain language. It is not the text of the standard, and completing it does not certify anyone. Every status starts as `not-reviewed`.
 
+## Practical platform: GRC Lab
+
+Do this practical in the [GRC Lab](https://grclab.purplecop.io/lab). When you finish an exercise there, save your own evidence in this folder. Do not invent screenshots or exports.
+
+- Date you used the GRC Lab:
+- What you completed there:
+- Screenshot or export file in this folder:
+- What you still need to finish in the files here:
+
 ## How to reproduce
 
 1. For each row, look for evidence in this repository or on your VM: a policy note, a screenshot, a checklist, or nothing.

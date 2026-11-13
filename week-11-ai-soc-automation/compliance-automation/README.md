@@ -12,6 +12,15 @@ Count a control sheet and produce a summary a human still has to read. Monday's 
 
 Allowed statuses: `met`, `partial`, `gap`, `not-reviewed`. Anything else is listed as unknown and is not treated as met.
 
+## Practical platform: GRC Lab
+
+Do this practical in the [GRC Lab](https://grclab.purplecop.io/lab). When you finish an exercise there, save your own evidence in this folder. Do not invent screenshots or exports.
+
+- Date you used the GRC Lab:
+- What you completed there:
+- Screenshot or export file in this folder:
+- What you still need to finish in the files here:
+
 ## How to reproduce
 
 ```bash
