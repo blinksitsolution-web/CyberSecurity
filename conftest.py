@@ -6,6 +6,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent
 
 PROJECTS = [
+    ROOT / "week-01-foundations" / "lab-01-risk-register-and-cia",
     ROOT / "week-02-tcp-ip-networking" / "addressing-practice",
     ROOT / "week-03-systems-and-hardening" / "hardening-audit",
     ROOT / "week-05-application-security" / "secure-code-review",
