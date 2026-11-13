@@ -35,6 +35,21 @@ def page_count(pdf: Path) -> int:
     return max(pages, 0)
 
 
+def trainee_source(path: Path) -> Path:
+    """Accept only week-*/lab-*/LAB-*.md inside this repository."""
+    requested = path if path.is_absolute() else ROOT / path
+    candidate = requested.resolve()
+    if not candidate.is_relative_to(ROOT):
+        raise ValueError(f"{path} is outside the repository")
+    relative = candidate.relative_to(ROOT)
+    if len(relative.parts) != 3:
+        raise ValueError(f"{path} is not a lab guide")
+    week, lab, name = relative.parts
+    if not (week.startswith("week-") and lab.startswith("lab-") and name.startswith("LAB-") and name.endswith(".md")):
+        raise ValueError(f"{path} is not a trainee LAB-*.md file")
+    return candidate
+
+
 def build_one(source: Path) -> Path:
     pdf = source.with_suffix(".pdf")
     header = ROOT / "labs" / ".header" / f"{source.stem}.html"
@@ -68,15 +83,20 @@ def main() -> None:
     parser = argparse.ArgumentParser(description="Build lab trainee PDFs")
     parser.add_argument("sources", nargs="*", type=Path, help="Optional LAB-*.md paths")
     args = parser.parse_args()
-    sources = args.sources or sorted(ROOT.glob("week-*/lab-*/LAB-*.md"))
-    if not sources:
+    requested = [Path(item) for item in args.sources] or sorted(ROOT.glob("week-*/lab-*/LAB-*.md"))
+    if not requested:
         print("No LAB-*.md sources found", file=sys.stderr)
         sys.exit(1)
     if not CSS.is_file():
         print(f"Missing {CSS}", file=sys.stderr)
         sys.exit(1)
+    try:
+        sources = [trainee_source(path) for path in requested]
+    except ValueError as exc:
+        print(exc, file=sys.stderr)
+        sys.exit(1)
     for source in sources:
-        pdf = build_one(source.resolve())
+        pdf = build_one(source)
         text_check = source.read_text(encoding="utf-8")
         if "TUTOR ANSWER KEY" in text_check:
             print(f"Refusing to build {source}: answer key text is in the trainee source", file=sys.stderr)
