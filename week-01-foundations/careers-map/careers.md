@@ -15,8 +15,8 @@ Example study names you will hear: CompTIA Security+, CompTIA CySA+, Microsoft S
 
 ## My path
 
-- Name: [Your name]
-- Public links: [LinkedIn] [GitHub] [email]
+- Name: James Ackah Blay
+- Public links: [LinkedIn](https://www.linkedin.com/in/jamesackahblay/) · [Medium](https://medium.com/@jamesblay80) · [jamesblay80@gmail.com](mailto:jamesblay80@gmail.com)
 - Role I want to be able to talk about by 25 December 2026:
 - Skills from this bootcamp I will show in the portfolio:
 - A certification or lab I might attempt later, and why:

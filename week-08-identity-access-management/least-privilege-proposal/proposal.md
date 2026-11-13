@@ -2,7 +2,7 @@
 
 - Status: proposed
 - System:
-- Author: [Your name]
+- Author: James Ackah Blay
 - Date:
 
 ## Problem

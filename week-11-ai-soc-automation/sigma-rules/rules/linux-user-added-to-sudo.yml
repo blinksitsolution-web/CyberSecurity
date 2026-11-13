@@ -5,7 +5,7 @@ description: >
   Selects a log line that records an account being added to the sudo group.
   Map it to a new local administrator in the home lab, then confirm the
   change was authorised.
-author: Replace with your name
+author: James Ackah Blay
 date: 2026/11/13
 references:
   - https://attack.mitre.org/techniques/T1098/

@@ -1,6 +1,6 @@
 # System hardening report
 
-- Author: [Your name]
+- Author: James Ackah Blay
 - Date:
 - System: [hostname, or "not built yet"]
 - Auditor script version: the copy in `../hardening-audit/`

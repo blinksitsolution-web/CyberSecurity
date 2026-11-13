@@ -5,7 +5,7 @@ description: >
   Selects Security event 4732 when the group is Administrators.
   Event 4732 is a member added to a security-enabled local group.
   Confirm the member name in your own export before you call it an incident.
-author: Replace with your name
+author: James Ackah Blay
 date: 2026/11/13
 references:
   - https://attack.mitre.org/techniques/T1098/
