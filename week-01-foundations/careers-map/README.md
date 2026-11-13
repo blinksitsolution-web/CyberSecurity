@@ -12,7 +12,7 @@ See where blue-team work sits among cybersecurity jobs, and write the first vers
 
 1. Read the role table.
 2. Fill the "My path" section in your own words.
-3. Add links only where they are really yours: LinkedIn, GitHub, email. Leave the placeholder if you do not want to publish one yet.
+3. Name, LinkedIn, Medium, and email are already in `careers.md`. The rest of "My path" is still yours to write.
 
 ## Evidence to add yourself
 

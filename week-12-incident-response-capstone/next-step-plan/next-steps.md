@@ -1,8 +1,8 @@
 # Next steps
 
-- Name: [Your name]
+- Name: James Ackah Blay
 - Date:
-- Links: [LinkedIn] [GitHub] [email]
+- Links: [LinkedIn](https://www.linkedin.com/in/jamesackahblay/) · [Medium](https://medium.com/@jamesblay80) · [jamesblay80@gmail.com](mailto:jamesblay80@gmail.com)
 
 ## What I can show today
 

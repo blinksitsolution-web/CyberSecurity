@@ -4,7 +4,7 @@ status: experimental
 description: >
   Selects Security event 4625. Use it with a threshold in the SIEM or in
   log_triage.py. The sample CSV is synthetic.
-author: Replace with your name
+author: James Ackah Blay
 date: 2026/11/13
 references:
   - https://attack.mitre.org/techniques/T1110/

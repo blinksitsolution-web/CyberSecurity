@@ -1,6 +1,6 @@
 # Password and MFA policy
 
-- Owner: [Your name]
+- Owner: James Ackah Blay
 - Applies to: lab accounts and anything that protects the home SOC lab
 - Date:
 

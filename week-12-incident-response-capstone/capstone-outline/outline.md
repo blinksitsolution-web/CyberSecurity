@@ -1,7 +1,7 @@
 # Capstone outline
 
 - Title: [for example, Detecting failed logons and new admin accounts in a home lab]
-- Presenter: [Your name]
+- Presenter: James Ackah Blay
 - Date:
 - Audience: bootcamp peers and trainers
 

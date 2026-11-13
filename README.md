@@ -4,11 +4,11 @@ A week-by-week portfolio for the Maxim Nyansa cybersecurity bootcamp in Ghana, *
 
 This page is a template. It does not invent a biography.
 
-- **Name:** [Your name]
-- **Location:** [City, if you want to publish it]
-- **Email:** [you@example.com]
-- **LinkedIn:** [https://www.linkedin.com/in/your-profile]
-- **GitHub:** [https://github.com/your-handle]
+- **Name:** James Ackah Blay
+- **Location:** Aiyinasi, Ghana
+- **Email:** [jamesblay80@gmail.com](mailto:jamesblay80@gmail.com)
+- **LinkedIn:** https://www.linkedin.com/in/jamesackahblay/
+- **Medium:** https://medium.com/@jamesblay80
 
 ## How to use this repository
 
@@ -85,7 +85,6 @@ Private keys are ignored by `.gitignore` (`*.key`, `*.p12`, `*.pfx`). Do not com
 
 ## What you still fill in
 
-- Your name and links on this page, in the learning plan, and in the careers map
 - Every project's "What I learned" prompts and evidence lines
 - Risk scores, audit results, and checklist statuses, only after you have done the work
 - Virtual-machine output: Wazuh version, agent id, hardening-audit text, restore tests

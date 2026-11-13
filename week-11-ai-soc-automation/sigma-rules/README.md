@@ -24,7 +24,7 @@ python3 -m pytest test_sigma_check.py
 python3 sigma_check.py rules/*.yml
 ```
 
-Replace `author: Replace with your name` when you adopt a rule. If you convert the rule for Wazuh, follow the current Wazuh or Sigma documentation and keep the converted rule next to the evidence of a log you actually collected. Do not claim a detection fired unless your dashboard showed it.
+The rule author is James Ackah Blay. If you convert a rule for Wazuh, follow the current Wazuh or Sigma documentation and keep the converted rule next to the evidence of a log you actually collected. Do not claim a detection fired unless your dashboard showed it.
 
 ## Evidence to add yourself
 

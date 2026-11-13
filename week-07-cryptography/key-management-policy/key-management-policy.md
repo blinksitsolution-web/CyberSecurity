@@ -1,6 +1,6 @@
 # Lab key-management policy
 
-- Owner of this policy: [Your name]
+- Owner of this policy: James Ackah Blay
 - Applies to: the home lab and this repository
 - Date:
 

@@ -2,7 +2,7 @@
 
 **Data label:** [PRACTICE DATA or my-lab]. If you are unsure, stop and use PRACTICE DATA.
 
-- Report author: [Your name]
+- Report author: James Ackah Blay
 - Date of report:
 - Incident id:
 - Status: open / contained / closed

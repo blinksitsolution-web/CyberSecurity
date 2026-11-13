@@ -2,7 +2,7 @@
 
 Replace every `[ ]` line. Do not copy someone else's plan.
 
-- Name: [Your name]
+- Name: James Ackah Blay
 - Programme: Maxim Nyansa cybersecurity bootcamp, 5 October–25 December 2026
 - Preferred direction right now: [for example, SOC / detection. Change this if you change your mind.]
 - Hours I can realistically study outside class each week:
