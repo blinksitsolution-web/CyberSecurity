@@ -1,0 +1,98 @@
+@page {
+  size: A4;
+  margin: 16mm 15mm 18mm 15mm;
+  @bottom-center {
+    content: counter(page);
+    font-family: "Liberation Sans", sans-serif;
+    font-size: 9pt;
+    color: #5c6b7a;
+  }
+}
+
+html { hyphens: manual; }
+
+body {
+  font-family: "Liberation Serif", "Times New Roman", serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1b2836;
+}
+
+h1, h2, h3, h4 {
+  font-family: "Liberation Sans", sans-serif;
+  color: #0f3d5e;
+  line-height: 1.25;
+  page-break-after: avoid;
+}
+
+h1 { font-size: 22pt; margin-bottom: 0.3em; }
+h2 { font-size: 15pt; margin-top: 1.2em; border-bottom: 1px solid #d5dee6; padding-bottom: 0.15em; }
+h3 { font-size: 12.5pt; margin-top: 1em; color: #1a5276; }
+
+p, li { orphans: 3; widows: 3; }
+
+a { color: #0f5c8c; text-decoration: none; }
+
+code {
+  font-family: "Liberation Mono", "DejaVu Sans Mono", monospace;
+  font-size: 9.2pt;
+  background: #eef3f7;
+  padding: 0 0.15em;
+}
+
+pre {
+  background: #f4f7fa;
+  border-left: 3px solid #1f6f8b;
+  padding: 8px 10px;
+  page-break-inside: avoid;
+  white-space: pre-wrap;
+}
+
+pre code { background: transparent; padding: 0; }
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 0.6em 0 1em;
+  page-break-inside: avoid;
+  font-size: 10pt;
+}
+
+th, td {
+  border: 1px solid #c5d0da;
+  padding: 4px 6px;
+  vertical-align: top;
+  text-align: left;
+}
+
+th { background: #0f3d5e; color: white; font-family: "Liberation Sans", sans-serif; }
+
+blockquote {
+  margin: 0.6em 0;
+  padding: 0.4em 0.8em;
+  background: #f7f1e8;
+  border-left: 3px solid #b86e00;
+  page-break-inside: avoid;
+}
+
+.title-page {
+  page-break-after: always;
+  border-top: 14px solid #0f3d5e;
+  padding-top: 16mm;
+}
+
+.title-page h1 { font-size: 26pt; }
+.title-page .meta { font-family: "Liberation Sans", sans-serif; font-size: 12pt; }
+.title-page .tutor {
+  margin-top: 12mm;
+  padding: 8px 10px;
+  background: #f3f7fb;
+  border: 1px solid #d5dee6;
+}
+
+.checkpoint {
+  background: #eef6f1;
+  border-left: 3px solid #1e7a46;
+  padding: 6px 10px;
+  page-break-inside: avoid;
+}

@@ -16,5 +16,6 @@ Thumbs.db
 *.swp
 .idea/
 .vscode/
+labs/.header/
 evidence-private/
 my-answers.csv

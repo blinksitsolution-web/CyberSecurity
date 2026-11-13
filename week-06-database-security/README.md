@@ -14,3 +14,5 @@ Topics: database models, what a DBMS does, integrity, access control, injection 
 | Security checklist | [database-security-checklist](database-security-checklist/) | The weekly checklist and the local safe-query demo |
 
 The weekly submission is the checklist plus the role, permission, and recovery pack.
+
+Hands-on lab: [Lab 06](lab-06-database-security/) and the [trainee PDF](lab-06-database-security/LAB-06-database-security.pdf).

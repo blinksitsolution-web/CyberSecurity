@@ -14,3 +14,5 @@ Topics: identification and authentication, MFA, biometrics, passwords, single si
 | Least-privilege proposal | [least-privilege-proposal](least-privilege-proposal/) | One concrete improvement |
 
 The weekly submission is all four.
+
+Hands-on lab: [Lab 08](lab-08-iam-and-account-abuse/) and the [trainee PDF](lab-08-iam-and-account-abuse/LAB-08-iam-and-account-abuse.pdf).

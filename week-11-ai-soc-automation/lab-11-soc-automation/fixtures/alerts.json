@@ -1,0 +1,21 @@
+{
+  "data_label": "synthetic-wazuh-export",
+  "alerts": [
+    {
+      "id": "a-100",
+      "rule": "SSH failed password burst",
+      "agent": "wazuh",
+      "source_ip": "203.0.113.10",
+      "technique": "T1110.001",
+      "level": 10
+    },
+    {
+      "id": "a-101",
+      "rule": "User added to sudo",
+      "agent": "wazuh",
+      "account": "newadmin",
+      "technique": "T1098",
+      "level": 12
+    }
+  ]
+}

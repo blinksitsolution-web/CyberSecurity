@@ -1,5 +1,7 @@
 # Lab 1 — CIA, risk register, and ethics
 
+Trainee guide (PDF): [LAB-01-risk-register-and-cia.pdf](LAB-01-risk-register-and-cia.pdf). Rebuild it with `python3 labs/build_pdfs.py` from the repository root. The tutor answer key is not inside the PDF.
+
 **Week 1 practical.** 5–9 October 2026. This is the hands-on session for the CIA triad, risk statements, a 5 by 5 matrix, treatments, and the ethical and legal cases (including Ghana's Act 1038, Act 843, Act 772, and the Bank of Ghana Cyber and Information Security Directive).
 
 Your answers stay in the worksheet files. The folder `examples/` is a finished sample for a fictional shop. It is not your result.

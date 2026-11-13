@@ -1,0 +1,10 @@
+EventID,TimeCreated,TargetUserName,IpAddress,GroupName,MemberName
+4625,2026-11-23T08:01:01Z,analyst,203.0.113.10,,
+4625,2026-11-23T08:01:05Z,analyst,203.0.113.10,,
+4625,2026-11-23T08:01:09Z,analyst,203.0.113.10,,
+4625,2026-11-23T08:01:13Z,admin,203.0.113.10,,
+4625,2026-11-23T08:01:17Z,admin,203.0.113.10,,
+4625,2026-11-23T09:00:00Z,analyst,198.51.100.8,,
+4720,2026-11-23T09:10:00Z,newadmin,,,
+4732,2026-11-23T09:11:00Z,,,Administrators,newadmin
+4732,2026-11-23T09:20:00Z,,,Backup Operators,analyst

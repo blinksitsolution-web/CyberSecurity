@@ -15,3 +15,5 @@ Topics: incident-response basics, security monitoring, integrated revision, a 40
 | Next-step plan | [next-step-plan](next-step-plan/) | What you will do after 25 December |
 
 The weekly submission is the capstone presentation, the mock, and the next-step plan. The incident documents are Monday's practical and the written product a SOC is judged on.
+
+Hands-on lab: [Lab 12](lab-12-incident-response-capstone/) and the [trainee PDF](lab-12-incident-response-capstone/LAB-12-incident-response-capstone.pdf).

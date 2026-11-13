@@ -17,3 +17,5 @@ Topics: hardware and operating-system components, endpoint weaknesses, patching,
 | Windows endpoint | [home-soc-lab-windows-endpoint](home-soc-lab-windows-endpoint/) | Sysmon and the Wazuh agent |
 
 The timetable's weekly submission is the secure workstation baseline checklist and the system hardening report. The lab folders are the machines that checklist is about.
+
+Hands-on lab: [Lab 03](lab-03-hardening-and-wazuh/) and the [trainee PDF](lab-03-hardening-and-wazuh/LAB-03-hardening-and-wazuh.pdf).
