@@ -9,6 +9,15 @@ Discuss ethical and legal cases in a team: authorised practice, disclosure, and 
 - `ghana-law-notes.md` — short, sourced notes on Act 1038, Act 843, Act 772, and the Bank of Ghana Cyber and Information Security Directive.
 - `case-studies.md` — five discussion cases with questions and no model verdict. Your group's answer is the deliverable.
 
+## Practical platform: GRC Lab
+
+Do this practical in the [GRC Lab](https://grclab.purplecop.io/lab). When you finish an exercise there, save your own evidence in this folder. Do not invent screenshots or exports.
+
+- Date you used the GRC Lab:
+- What you completed there:
+- Screenshot or export file in this folder:
+- What you still need to finish in the files here:
+
 ## How to reproduce
 
 1. Read the law notes and open the official texts linked there when you need the exact section.

@@ -8,6 +8,15 @@ Say which security jobs stay with the customer and which move to the provider as
 
 `responsibility-matrix.csv` is a general teaching model. Provider pages differ, and they change. The last column says "confirm". Do not cite this file as the vendor's current policy.
 
+## Practical platform: GRC Lab
+
+Do this practical in the [GRC Lab](https://grclab.purplecop.io/lab). When you finish an exercise there, save your own evidence in this folder. Do not invent screenshots or exports.
+
+- Date you used the GRC Lab:
+- What you completed there:
+- Screenshot or export file in this folder:
+- What you still need to finish in the files here:
+
 ## How to reproduce
 
 1. Read the matrix once.

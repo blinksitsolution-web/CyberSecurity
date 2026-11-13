@@ -1,0 +1,7 @@
+id,asset,threat,vulnerability,existing_control,cia,likelihood,impact,treatment,owner,notes,example
+R-01,Shop laptop with the customer list,Theft of the laptop from the counter,"No disk encryption, and the laptop is often left signed in",Screen lock only,Confidentiality,3,4,mitigate,Esi,Example score for the sample shop. Not a measurement.,yes
+R-02,Shared till password,A former helper or a customer reuses the password,One password is known by everyone at the counter,None,Confidentiality,4,3,mitigate,Esi,Example score.,yes
+R-03,Passport photos in the shop WhatsApp,The phone is lost or the chat is forwarded,ID images are kept with no deletion date,The chat is on one phone,Confidentiality,4,5,mitigate,Esi,Example score. Personal data under Act 843.,yes
+R-04,Mobile-money agent PIN and float,Someone sees the PIN and moves the float,The PIN is written on the counter,"The provider's agent rules, unread",Integrity,4,5,mitigate,Esi,"Example score. The Bank of Ghana directive binds the regulated institution, not this shop automatically.",yes
+R-05,Print jobs and the order book,Files are lost or quietly changed,The only backup is a USB stick that has never been restored,USB in the cash drawer,Integrity,2,4,mitigate,Kwame,Example score. Availability matters here too.,yes
+R-06,Shop Wi-Fi,A customer device shares the network with the till laptop,"The Wi-Fi password is on a sticky note, and there is no separate guest network",The note on the wall,Confidentiality,2,3,mitigate,Kwame,Example score.,yes

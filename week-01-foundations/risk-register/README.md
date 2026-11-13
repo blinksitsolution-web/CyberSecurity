@@ -16,6 +16,15 @@ Words used in the file:
 - **Control** — something that reduces the chance or the harm.
 - **CIA** — confidentiality, integrity, availability. Record which of the three the risk hits first.
 
+## Practical platform: GRC Lab
+
+Do this practical in the [GRC Lab](https://grclab.purplecop.io/lab). When you finish an exercise there, save your own evidence in this folder. Do not invent screenshots or exports.
+
+- Date you used the GRC Lab:
+- What you completed there:
+- Screenshot or export file in this folder:
+- What you still need to finish in the files here:
+
 ## How to reproduce
 
 1. Open `risk-register.csv` in a spreadsheet or a text editor.

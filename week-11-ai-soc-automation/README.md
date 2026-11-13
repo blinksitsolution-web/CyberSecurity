@@ -17,3 +17,5 @@ The timetable also asks you to automate offensive tests inside an authorised san
 | Authorised-test review | [authorised-test-review](authorised-test-review/) | Tool choice and human review, without exploit automation |
 
 Sample data is labelled synthetic. Replace the label only when the file is really from your lab, and remove personal data first.
+
+The compliance exercise also uses the [GRC Lab](https://grclab.purplecop.io/lab). The script in this repository only counts a CSV. It does not replace the work you do in that lab, and it does not invent results from it.

@@ -41,7 +41,7 @@ The ISO checklist is study material. It is not a certification. The law notes ar
 
 | Week | Dates | Folder | Projects |
 | --- | --- | --- | --- |
-| 1 Foundations | 5–9 Oct 2026 | [week-01-foundations](week-01-foundations/) | [Learning plan](week-01-foundations/personal-learning-plan/), [team charter](week-01-foundations/team-project-charter/), [risk register](week-01-foundations/risk-register/), [ethics and Ghana law](week-01-foundations/ethics-case-studies/), [careers map](week-01-foundations/careers-map/) |
+| 1 Foundations | 5–9 Oct 2026 | [week-01-foundations](week-01-foundations/) | [Learning plan](week-01-foundations/personal-learning-plan/), [team charter](week-01-foundations/team-project-charter/), [risk register](week-01-foundations/risk-register/), [ethics and Ghana law](week-01-foundations/ethics-case-studies/), [careers map](week-01-foundations/careers-map/), [Lab 1](week-01-foundations/lab-01-risk-register-and-cia/) |
 | 2 TCP/IP | 12–16 Oct 2026 | [week-02-tcp-ip-networking](week-02-tcp-ip-networking/) | [Network map](week-02-tcp-ip-networking/network-map/), [protocol reference](week-02-tcp-ip-networking/protocol-reference/), [addressing practice](week-02-tcp-ip-networking/addressing-practice/), [home-lab network](week-02-tcp-ip-networking/home-soc-lab-network/) |
 | 3 Systems and hardening | 19–23 Oct 2026 | [week-03-systems-and-hardening](week-03-systems-and-hardening/) | [Architecture notes](week-03-systems-and-hardening/system-architecture-notes/), [workstation baseline](week-03-systems-and-hardening/workstation-baseline/), [hardening audit](week-03-systems-and-hardening/hardening-audit/), [backups and logging](week-03-systems-and-hardening/backup-and-logging/), [hardening report](week-03-systems-and-hardening/system-hardening-report/), [Wazuh server](week-03-systems-and-hardening/home-soc-lab-wazuh/), [Windows endpoint](week-03-systems-and-hardening/home-soc-lab-windows-endpoint/) |
 | 4 Security management | 26–30 Oct 2026 | [week-04-security-management](week-04-security-management/) | [Risk sprint](week-04-security-management/risk-assessment-sprint/), [ISO 27001 gap check](week-04-security-management/iso-27001-gap-check/), [role-play audit](week-04-security-management/role-play-audit/), [tabletop](week-04-security-management/tabletop-crisis-simulation/) |
@@ -83,9 +83,14 @@ You should see passing tests for addressing, the read-only audit, safe input han
 
 Private keys are ignored by `.gitignore` (`*.key`, `*.p12`, `*.pfx`). Do not commit passwords, agent enrolment tokens, or logs that contain personal data.
 
+## Resources and tools
+
+- **GRC Lab** — practical platform for the governance, risk, and compliance exercises in this portfolio: [https://grclab.purplecop.io/lab](https://grclab.purplecop.io/lab). Complete the exercise there, then save your own screenshots or exports in the project folder. Those files are not filled in for you.
+
 ## What you still fill in
 
 - Every project's "What I learned" prompts and evidence lines
+- GRC Lab screenshots or exports for the governance exercises, saved in the project folder
 - Risk scores, audit results, and checklist statuses, only after you have done the work
 - Virtual-machine output: Wazuh version, agent id, hardening-audit text, restore tests
 - The Week 10 scope signatures, findings, and remediation rows
