@@ -13,7 +13,7 @@ Completed credentials:
 - AWS Certified Cloud Practitioner
 - APIsec University courses, completed, with Credly badges
 
-The pages below are completed written work. Scores, organisations, and control baselines are the ones printed in those documents. Trinity Valley Health Partners, CloudPay, MediChart, and SaaSCo are training scenarios. Blank bootcamp worksheets are archived in [bootcamp-materials](bootcamp-materials/) and are not findings.
+The pages below are completed written work. Scores, organisations, and control baselines are the ones printed in those documents. Trinity Valley Health Partners, CloudPay, MediChart, and SaaSCo are training scenarios.
 
 **Email:** [jamesblay80@gmail.com](mailto:jamesblay80@gmail.com)  
 **LinkedIn:** [linkedin.com/in/jamesackahblay](https://www.linkedin.com/in/jamesackahblay)
@@ -47,18 +47,18 @@ Skills below are the ones the submitted documents actually use. AWS and APIsec c
 
 | Week | Dates | Topic | Status |
 | --- | --- | --- | --- |
-| 1 | 5–9 Oct 2026 | Foundations, CIA, risk, ethics | [GRC Practice Lab write-up](week-01-foundations/) submitted. Other Week 1 papers not submitted |
-| 2 | 12–16 Oct 2026 | TCP/IP networking | In progress – work will be added |
-| 3 | 19–23 Oct 2026 | Systems and hardening | In progress – work will be added |
-| 4 | 26–30 Oct 2026 | Security management, risk, governance | [Group 4 GRC lab](week-04-security-management/) submitted (team). Other Week 4 papers not submitted |
-| 5 | 2–6 Nov 2026 | Application security | In progress – work will be added |
-| 6 | 9–13 Nov 2026 | Database security | In progress – work will be added |
-| 7 | 16–20 Nov 2026 | Cryptography | [Written Q&A](week-07-cryptography/) submitted (9 Oct 2026). Class labs not yet submitted |
-| 8 | 23–27 Nov 2026 | Identity and access management | In progress – work will be added |
-| 9 | 30 Nov–4 Dec 2026 | Cloud security | In progress – work will be added |
-| 10 | 7–11 Dec 2026 | Authorised vulnerability assessment | In progress – work will be added |
-| 11 | 14–18 Dec 2026 | AI and cybersecurity automation | [AI governance policy](week-11-ai-soc-automation/) submitted (effective 10 Oct 2026). Automation labs not started |
-| 12 | 21–25 Dec 2026 | Incident response and capstone | In progress – work will be added |
+| 1 | 5–9 Oct 2026 | Foundations, CIA, risk, ethics | [GRC Practice Lab](week-01-foundations/grc-practice-lab-control-lifecycle/) |
+| 2 | 12–16 Oct 2026 | TCP/IP networking | In progress |
+| 3 | 19–23 Oct 2026 | Systems and hardening | In progress |
+| 4 | 26–30 Oct 2026 | Security management, risk, governance | [Group 4 GRC lab](week-04-security-management/group-4-grc-virtual-lab/) (team) |
+| 5 | 2–6 Nov 2026 | Application security | In progress |
+| 6 | 9–13 Nov 2026 | Database security | In progress |
+| 7 | 16–20 Nov 2026 | Cryptography | [Cryptography and secure web questions](week-07-cryptography/cryptography-and-secure-web-qa/) |
+| 8 | 23–27 Nov 2026 | Identity and access management | In progress |
+| 9 | 30 Nov–4 Dec 2026 | Cloud security | In progress |
+| 10 | 7–11 Dec 2026 | Authorised vulnerability assessment | In progress |
+| 11 | 14–18 Dec 2026 | AI and cybersecurity automation | [AI governance policy](week-11-ai-soc-automation/ai-use-governance-and-security-policy/) |
+| 12 | 21–25 Dec 2026 | Incident response and capstone | In progress |
 
 Yes You Can Cyber Secure work is in [yes-you-can-cybersecure](yes-you-can-cybersecure/).
 
