@@ -27,12 +27,13 @@ The pages below are completed written work. Scores, organisations, and control b
 | AI Use, Governance and Security Policy | Week 11 topic; policy effective 10 October 2026 | ISO/IEC 27001, 27002, 42001, 23894; NIST AI RMF; NIST CSF | [Case study](week-11-ai-soc-automation/ai-use-governance-and-security-policy/) |
 | GRC Practice Lab: control lifecycle | Week 1, 8 October 2026 | Control lifecycle, maturity scores, review dates | [Case study](week-01-foundations/grc-practice-lab-control-lifecycle/) |
 | Cryptography and secure web questions | Week 7 topic; written 9 October 2026 | Symmetric and asymmetric encryption, HTTPS certificates, hashing, Signal Protocol | [Case study](week-07-cryptography/cryptography-and-secure-web-qa/) |
+| Adepa Logistics network lab | Week 2, 16 October 2026 | Subnetting, DHCP and static addressing, ACL, Wireshark, CLI network tables | [Case study](week-02-tcp-ip-networking/packet-tracer-and-wireshark-network-lab/) |
 
 The Group 4 report is a team product. James contributed as a member of the group. The write-up does not split the work by person.
 
 ## Skills matrix
 
-Skills below are the ones the submitted documents actually use. AWS and APIsec credentials are listed above. Project evidence in this repository is the GRC, risk-assessment, policy, and cryptography work in the table.
+Skills below are the ones the submitted work actually uses. AWS and APIsec credentials are listed above. Project evidence in this repository is the GRC, risk-assessment, policy, cryptography, and TCP/IP lab work in the table.
 
 | Skill | Where it is shown |
 | --- | --- |
@@ -42,13 +43,14 @@ Skills below are the ones the submitted documents actually use. AWS and APIsec c
 | Map recommended controls to NIST SP 800-53, CIS Controls, NIST CSF 2.0, and HIPAA | [Project 4](yes-you-can-cybersecure/project-4-it-system-risk-assessment/) register |
 | Draft an AI governance policy and a 5×5 AI risk matrix | [AI policy](week-11-ai-soc-automation/ai-use-governance-and-security-policy/) — illustrative scores, status Submission-Ready |
 | Explain symmetric and asymmetric encryption, HTTPS certificates, and a Signal Protocol message path | [Cryptography Q&A](week-07-cryptography/cryptography-and-secure-web-qa/) |
+| Build a `/26` subnet plan, DHCP and static addressing, an extended ACL, and read ARP, DNS, TCP, ICMP, and TLS | [Week 2 lab](week-02-tcp-ip-networking/packet-tracer-and-wireshark-network-lab/) — Adepa Logistics, Packet Tracer, Wireshark, and CLI utilities. Captures and command output are not in the folder yet |
 
 ## Week-by-week progress
 
 | Week | Dates | Topic | Status |
 | --- | --- | --- | --- |
 | 1 | 5–9 Oct 2026 | Foundations, CIA, risk, ethics | [GRC Practice Lab](week-01-foundations/grc-practice-lab-control-lifecycle/) |
-| 2 | 12–16 Oct 2026 | TCP/IP networking | In progress |
+| 2 | 12–16 Oct 2026 | TCP/IP networking | [Packet Tracer and Wireshark lab](week-02-tcp-ip-networking/packet-tracer-and-wireshark-network-lab/) |
 | 3 | 19–23 Oct 2026 | Systems and hardening | In progress |
 | 4 | 26–30 Oct 2026 | Security management, risk, governance | [Group 4 GRC lab](week-04-security-management/group-4-grc-virtual-lab/) (team) |
 | 5 | 2–6 Nov 2026 | Application security | In progress |
