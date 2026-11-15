@@ -1,24 +1,28 @@
-"""Put each week's Python project on the import path for pytest."""
+"""Put each scaffold exercise on the import path for pytest.
+
+The exercises under bootcamp-materials are course worksheets, not portfolio findings.
+"""
 
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent
+BASE = ROOT / "bootcamp-materials"
 
 PROJECTS = [
-    ROOT / "week-01-foundations" / "lab-01-risk-register-and-cia",
-    ROOT / "week-02-tcp-ip-networking" / "addressing-practice",
-    ROOT / "week-03-systems-and-hardening" / "hardening-audit",
-    ROOT / "week-05-application-security" / "secure-code-review",
-    ROOT / "week-06-database-security" / "database-security-checklist",
-    ROOT / "week-07-cryptography" / "encryption-hashing-practice",
-    ROOT / "week-07-cryptography" / "certificate-inspection",
-    ROOT / "week-08-identity-access-management" / "password-mfa-policy",
-    ROOT / "week-11-ai-soc-automation" / "compliance-automation",
-    ROOT / "week-11-ai-soc-automation" / "soc-alert-triage",
-    ROOT / "week-11-ai-soc-automation" / "sigma-rules",
-    ROOT / "week-11-ai-soc-automation" / "threat-intel-summary",
-    ROOT / "week-12-incident-response-capstone" / "mock-assessment",
+    BASE / "week-01-foundations" / "lab-01-risk-register-and-cia",
+    BASE / "week-02-tcp-ip-networking" / "addressing-practice",
+    BASE / "week-03-systems-and-hardening" / "hardening-audit",
+    BASE / "week-05-application-security" / "secure-code-review",
+    BASE / "week-06-database-security" / "database-security-checklist",
+    BASE / "week-07-cryptography" / "encryption-hashing-practice",
+    BASE / "week-07-cryptography" / "certificate-inspection",
+    BASE / "week-08-identity-access-management" / "password-mfa-policy",
+    BASE / "week-11-ai-soc-automation" / "compliance-automation",
+    BASE / "week-11-ai-soc-automation" / "soc-alert-triage",
+    BASE / "week-11-ai-soc-automation" / "sigma-rules",
+    BASE / "week-11-ai-soc-automation" / "threat-intel-summary",
+    BASE / "week-12-incident-response-capstone" / "mock-assessment",
 ]
 
 for project in PROJECTS:
