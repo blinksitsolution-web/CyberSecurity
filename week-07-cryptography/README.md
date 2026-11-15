@@ -1,16 +1,13 @@
 # Week 7 — Cryptography and secure communications
 
-**16–20 November 2026.** Professional session: problem solving and critical thinking.
+**16–20 November 2026.** Symmetric and asymmetric encryption, key management, hashing, digital signatures, PKI and certificates, and SSL/TLS and IPsec.
 
-Topics: symmetric and asymmetric encryption, key management, data at rest and in transit, hashing, digital signatures, PKI, certificates, TLS, and IPsec.
+## Submitted
 
-## Projects
+| Work | Case study |
+| --- | --- |
+| Cryptography and secure web questions (written 9 October 2026) | [cryptography-and-secure-web-qa](cryptography-and-secure-web-qa/) |
 
-| Project | Folder | What you hand in |
-| --- | --- | --- |
-| Encryption and hashing | [encryption-hashing-practice](encryption-hashing-practice/) | Scripts you can re-run |
-| Key-management policy | [key-management-policy](key-management-policy/) | A short policy for the lab |
-| Certificate inspection | [certificate-inspection](certificate-inspection/) | A public certificate and a reader |
-| Secure communications | [secure-communications](secure-communications/) | A plain explanation of TLS and IPsec |
+This is a written question set completed before the class week. The Week 7 lab submissions (encryption practice, key-management policy, certificate inspection, and secure-communications demo) are not in the folder yet. In progress – work will be added.
 
-The weekly submission is all four.
+Blank lab scaffolds are in [bootcamp-materials/week-07-cryptography](../bootcamp-materials/week-07-cryptography/).

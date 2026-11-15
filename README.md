@@ -1,102 +1,67 @@
-# CyberSecurity Projects
+# James Ackah-Blay — cybersecurity portfolio
 
-A week-by-week portfolio for the Maxim Nyansa cybersecurity bootcamp in Ghana, **5 October–25 December 2026**. The work is arranged for a beginner who wants blue-team practice: detection, logs, and careful reporting. The home lab is planned for a laptop with **32 GB of RAM** and VirtualBox.
+GRC and IT audit portfolio for internship applications, with study toward API security and cloud and systems administration. James Ackah-Blay is based in Aiyinasi, Ghana.
 
-This page is a template. It does not invent a biography.
+Two courses are in progress. Neither is a certification.
 
-- **Name:** James Ackah Blay
-- **Location:** Aiyinasi, Ghana
-- **Email:** [jamesblay80@gmail.com](mailto:jamesblay80@gmail.com)
-- **LinkedIn:** https://www.linkedin.com/in/jamesackahblay/
-- **Medium:** https://medium.com/@jamesblay80
+- **Maxim Nyansa cybersecurity bootcamp** — 12 weeks, 5 October–25 December 2026
+- **Yes You Can Cyber Secure** — February–December 2026
 
-## How to use this repository
+Completed credentials:
 
-Each week has its own folder. Each deliverable has a folder inside that week, with a README that states the goal, what is already here, how to run or repeat it, and prompts for what you learned. Fill those prompts yourself. Where a result depends on your virtual machine, the file says so and leaves the evidence blank.
+- AWS Certified Solutions Architect – Associate
+- AWS Certified Cloud Practitioner
+- APIsec University courses, completed, with Credly badges
 
-Sample logs, sample control sheets, and example risk rows are marked synthetic or `example=yes`. They are teaching data. They are not findings from a real network.
+The pages below are completed written work. Scores, organisations, and control baselines are the ones printed in those documents. Trinity Valley Health Partners, CloudPay, MediChart, and SaaSCo are training scenarios. Blank bootcamp worksheets are archived in [bootcamp-materials](bootcamp-materials/) and are not findings.
 
-Labs stay on systems you are allowed to test. The home lab uses a VirtualBox host-only network. Week 10 adds an assessment VM only behind a written scope. This repository does not include exploit procedures, malware samples, or offensive automation.
+**Email:** [jamesblay80@gmail.com](mailto:jamesblay80@gmail.com)  
+**LinkedIn:** [linkedin.com/in/jamesackahblay](https://www.linkedin.com/in/jamesackahblay)
 
-## Skills this portfolio is built to show
+## Featured projects
 
-| Area | Where it lives |
-| --- | --- |
-| CIA, risk language, ethics, and Ghana law study notes (Act 1038, Act 843, Act 772, Bank of Ghana CISD) | Week 1 |
-| TCP/IP, addressing, and a lab network plan | Week 2 |
-| Operating systems, a workstation baseline, read-only hardening checks, backups, Wazuh and a Windows endpoint plan | Week 3 |
-| Risk scoring, an ISO 27001 study checklist, a practice audit, and a tabletop | Week 4 |
-| Secure development, input handling, XSS prevention, configuration review | Week 5 |
-| Databases, permissions, recovery, and parameterised queries | Week 6 |
-| Hashing, password hashing, symmetric encryption, certificates, TLS and IPsec | Week 7 |
-| Passwords, MFA, journeys, RBAC and ABAC, least privilege | Week 8 |
-| Cloud models, shared responsibility, a cloud checklist and risk register | Week 9 |
-| Authorised assessment reporting, defensive phishing and malware notes, Kali added to the lab | Week 10 |
-| Compliance counts, log triage, Sigma rules mapped to MITRE ATT&CK, a local threat-intel summary | Week 11 |
-| Incident notes and report, a 40-question revision quiz, capstone outline, next steps | Week 12 |
-
-The ISO checklist is study material. It is not a certification. The law notes are not legal advice. Read the official Act or directive before you quote a section.
-
-## Roadmap
-
-| Week | Dates | Folder | Projects |
+| Project | Week / course | Skills shown in the document | Case study |
 | --- | --- | --- | --- |
-| 1 Foundations | 5–9 Oct 2026 | [week-01-foundations](week-01-foundations/) | [Learning plan](week-01-foundations/personal-learning-plan/), [team charter](week-01-foundations/team-project-charter/), [risk register](week-01-foundations/risk-register/), [ethics and Ghana law](week-01-foundations/ethics-case-studies/), [careers map](week-01-foundations/careers-map/), [Lab 1](week-01-foundations/lab-01-risk-register-and-cia/) |
-| 2 TCP/IP | 12–16 Oct 2026 | [week-02-tcp-ip-networking](week-02-tcp-ip-networking/) | [Network map](week-02-tcp-ip-networking/network-map/), [protocol reference](week-02-tcp-ip-networking/protocol-reference/), [addressing practice](week-02-tcp-ip-networking/addressing-practice/), [home-lab network](week-02-tcp-ip-networking/home-soc-lab-network/) |
-| 3 Systems and hardening | 19–23 Oct 2026 | [week-03-systems-and-hardening](week-03-systems-and-hardening/) | [Architecture notes](week-03-systems-and-hardening/system-architecture-notes/), [workstation baseline](week-03-systems-and-hardening/workstation-baseline/), [hardening audit](week-03-systems-and-hardening/hardening-audit/), [backups and logging](week-03-systems-and-hardening/backup-and-logging/), [hardening report](week-03-systems-and-hardening/system-hardening-report/), [Wazuh server](week-03-systems-and-hardening/home-soc-lab-wazuh/), [Windows endpoint](week-03-systems-and-hardening/home-soc-lab-windows-endpoint/) |
-| 4 Security management | 26–30 Oct 2026 | [week-04-security-management](week-04-security-management/) | [Risk sprint](week-04-security-management/risk-assessment-sprint/), [ISO 27001 gap check](week-04-security-management/iso-27001-gap-check/), [role-play audit](week-04-security-management/role-play-audit/), [tabletop](week-04-security-management/tabletop-crisis-simulation/) |
-| 5 Application security | 2–6 Nov 2026 | [week-05-application-security](week-05-application-security/) | [SDLC checklist](week-05-application-security/secure-development-checklist/), [input validation](week-05-application-security/input-validation/), [XSS awareness](week-05-application-security/xss-awareness/), [insecure configuration](week-05-application-security/insecure-configuration/), [secure code review](week-05-application-security/secure-code-review/) |
-| 6 Databases | 9–13 Nov 2026 | [week-06-database-security](week-06-database-security/) | [Models](week-06-database-security/database-models/), [integrity](week-06-database-security/data-integrity/), [roles and recovery](week-06-database-security/role-permission-matrix/), [security checklist](week-06-database-security/database-security-checklist/) |
-| 7 Cryptography | 16–20 Nov 2026 | [week-07-cryptography](week-07-cryptography/) | [Encryption and hashing](week-07-cryptography/encryption-hashing-practice/), [key policy](week-07-cryptography/key-management-policy/), [certificate inspection](week-07-cryptography/certificate-inspection/), [TLS and IPsec](week-07-cryptography/secure-communications/) |
-| 8 Identity and access | 23–27 Nov 2026 | [week-08-identity-access-management](week-08-identity-access-management/) | [Password and MFA policy](week-08-identity-access-management/password-mfa-policy/), [user journey](week-08-identity-access-management/iam-user-journey/), [access matrix](week-08-identity-access-management/access-control-matrix/), [least privilege](week-08-identity-access-management/least-privilege-proposal/) |
-| 9 Cloud | 30 Nov–4 Dec 2026 | [week-09-cloud-security](week-09-cloud-security/) | [Deployment comparison](week-09-cloud-security/cloud-deployment-comparison/), [shared responsibility](week-09-cloud-security/shared-responsibility/), [cloud checklist](week-09-cloud-security/cloud-security-checklist/), [cloud risk register](week-09-cloud-security/cloud-risk-register/) |
-| 10 Authorised assessment | 7–11 Dec 2026 | [week-10-vulnerability-assessment](week-10-vulnerability-assessment/) | [Scope](week-10-vulnerability-assessment/assessment-scope/), [phishing awareness](week-10-vulnerability-assessment/phishing-awareness/), [malware defence](week-10-vulnerability-assessment/malware-defence/), [assessment report](week-10-vulnerability-assessment/vulnerability-assessment-report/), [remediation](week-10-vulnerability-assessment/remediation-recommendations/), [Kali lab](week-10-vulnerability-assessment/home-soc-lab-kali/) |
-| 11 Automation for defence | 14–18 Dec 2026 | [week-11-ai-soc-automation](week-11-ai-soc-automation/) | [Compliance counts](week-11-ai-soc-automation/compliance-automation/), [log triage](week-11-ai-soc-automation/soc-alert-triage/), [Sigma rules](week-11-ai-soc-automation/sigma-rules/), [threat-intel summary](week-11-ai-soc-automation/threat-intel-summary/), [authorised-test review](week-11-ai-soc-automation/authorised-test-review/) |
-| 12 Incident response and capstone | 21–25 Dec 2026 | [week-12-incident-response-capstone](week-12-incident-response-capstone/) | [Response notes](week-12-incident-response-capstone/incident-response-notes/), [incident report](week-12-incident-response-capstone/incident-report/), [mock assessment](week-12-incident-response-capstone/mock-assessment/), [capstone outline](week-12-incident-response-capstone/capstone-outline/), [next steps](week-12-incident-response-capstone/next-step-plan/) |
+| IT system risk assessment: Exchange Server 2019 and Cisco ASA 5516-X | Yes You Can Cyber Secure, Project 4 (individual), 2 November 2026 | NIST SP 800-30, 5×5 scoring, NIST SP 800-53, CIS Controls, NIST CSF 2.0, HIPAA | [Case study](yes-you-can-cybersecure/project-4-it-system-risk-assessment/) |
+| Group 4 GRC virtual lab (team) | Week 4, file date 30 October 2026 | Risk appetite, KRIs, BIA, risk register, treatment plans, cloud risk scenarios | [Case study](week-04-security-management/group-4-grc-virtual-lab/) |
+| AI Use, Governance and Security Policy | Week 11 topic; policy effective 10 October 2026 | ISO/IEC 27001, 27002, 42001, 23894; NIST AI RMF; NIST CSF | [Case study](week-11-ai-soc-automation/ai-use-governance-and-security-policy/) |
+| GRC Practice Lab: control lifecycle | Week 1, 8 October 2026 | Control lifecycle, maturity scores, review dates | [Case study](week-01-foundations/grc-practice-lab-control-lifecycle/) |
+| Cryptography and secure web questions | Week 7 topic; written 9 October 2026 | Symmetric and asymmetric encryption, HTTPS certificates, hashing, Signal Protocol | [Case study](week-07-cryptography/cryptography-and-secure-web-qa/) |
 
-## Home SOC lab
+The Group 4 report is a team product. James contributed as a member of the group. The write-up does not split the work by person.
 
-The lab is threaded through the weeks instead of being one isolated folder.
+## Skills matrix
 
-| Piece | When | Folder |
-| --- | --- | --- |
-| Host-only network, `192.168.56.0/24`, RAM plan | Week 2 | [home-soc-lab-network](week-02-tcp-ip-networking/home-soc-lab-network/) |
-| Wazuh on Ubuntu Server at `192.168.56.10` | Week 3 | [home-soc-lab-wazuh](week-03-systems-and-hardening/home-soc-lab-wazuh/) |
-| Windows VM, Sysmon, Wazuh agent at `192.168.56.20` | Week 3 | [home-soc-lab-windows-endpoint](week-03-systems-and-hardening/home-soc-lab-windows-endpoint/) |
-| Kali at `192.168.56.30`, after a signed scope | Week 10 | [home-soc-lab-kali](week-10-vulnerability-assessment/home-soc-lab-kali/) |
-| Log triage and Sigma rules for brute force (T1110) and new admins (T1098) | Week 11 | [soc-alert-triage](week-11-ai-soc-automation/soc-alert-triage/), [sigma-rules](week-11-ai-soc-automation/sigma-rules/) |
+Skills below are the ones the submitted documents actually use. AWS and APIsec credentials are listed above. Project evidence in this repository is the GRC, risk-assessment, policy, and cryptography work in the table.
 
-Do not run all three guests at full size if the laptop starts swapping. The Wazuh VM is the one that needs the memory. Nothing in this repository is a screenshot of that lab. Those files are yours to add under a project's `evidence/` folder when you have them.
+| Skill | Where it is shown |
+| --- | --- |
+| Read a GRC control lifecycle, maturity score, owner, and review date | [Week 1 lab](week-01-foundations/grc-practice-lab-control-lifecycle/) — 35 controls, 12 risks, 4 treatments, six stages, average maturity 1.67/5 on the six displayed scores |
+| Risk appetite, KRIs, business impact analysis, treatment completion | [Week 4 Group 4 lab](week-04-security-management/group-4-grc-virtual-lab/) — contributor. Payment Processing RTO 1 hour; CloudPay and enterprise treatment completion 0% |
+| NIST SP 800-30 Tier 3 assessment and 5×5 risk scoring | [Project 4](yes-you-can-cybersecure/project-4-it-system-risk-assessment/) — 20 open risks; highest ASA-03 at 25; Exchange EX-01 and EX-02 at 20 |
+| Map recommended controls to NIST SP 800-53, CIS Controls, NIST CSF 2.0, and HIPAA | [Project 4](yes-you-can-cybersecure/project-4-it-system-risk-assessment/) register |
+| Draft an AI governance policy and a 5×5 AI risk matrix | [AI policy](week-11-ai-soc-automation/ai-use-governance-and-security-policy/) — illustrative scores, status Submission-Ready |
+| Explain symmetric and asymmetric encryption, HTTPS certificates, and a Signal Protocol message path | [Cryptography Q&A](week-07-cryptography/cryptography-and-secure-web-qa/) |
 
-## Run the tests
+## Week-by-week progress
 
-Python 3.11 or newer is enough. The exercises use the standard library plus `pytest`, `cryptography`, and `PyYAML`.
+| Week | Dates | Topic | Status |
+| --- | --- | --- | --- |
+| 1 | 5–9 Oct 2026 | Foundations, CIA, risk, ethics | [GRC Practice Lab write-up](week-01-foundations/) submitted. Other Week 1 papers not submitted |
+| 2 | 12–16 Oct 2026 | TCP/IP networking | In progress – work will be added |
+| 3 | 19–23 Oct 2026 | Systems and hardening | In progress – work will be added |
+| 4 | 26–30 Oct 2026 | Security management, risk, governance | [Group 4 GRC lab](week-04-security-management/) submitted (team). Other Week 4 papers not submitted |
+| 5 | 2–6 Nov 2026 | Application security | In progress – work will be added |
+| 6 | 9–13 Nov 2026 | Database security | In progress – work will be added |
+| 7 | 16–20 Nov 2026 | Cryptography | [Written Q&A](week-07-cryptography/) submitted (9 Oct 2026). Class labs not yet submitted |
+| 8 | 23–27 Nov 2026 | Identity and access management | In progress – work will be added |
+| 9 | 30 Nov–4 Dec 2026 | Cloud security | In progress – work will be added |
+| 10 | 7–11 Dec 2026 | Authorised vulnerability assessment | In progress – work will be added |
+| 11 | 14–18 Dec 2026 | AI and cybersecurity automation | [AI governance policy](week-11-ai-soc-automation/) submitted (effective 10 Oct 2026). Automation labs not started |
+| 12 | 21–25 Dec 2026 | Incident response and capstone | In progress – work will be added |
 
-```bash
-python3 -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-pytest
-```
-
-You should see passing tests for addressing, the read-only audit, safe input handling, parameterised database access, hashing and encryption, certificate inspection, the password policy, compliance counts, log triage, Sigma checks, the threat-intel summary, and the mock-exam scorer.
-
-Private keys are ignored by `.gitignore` (`*.key`, `*.p12`, `*.pfx`). Do not commit passwords, agent enrolment tokens, or logs that contain personal data.
-
-## Resources and tools
-
-- **GRC Lab** — practical platform for the governance, risk, and compliance exercises in this portfolio: [https://grclab.purplecop.io/lab](https://grclab.purplecop.io/lab). Complete the exercise there, then save your own screenshots or exports in the project folder. Those files are not filled in for you.
-
-## What you still fill in
-
-- Every project's "What I learned" prompts and evidence lines
-- GRC Lab screenshots or exports for the governance exercises, saved in the project folder
-- Risk scores, audit results, and checklist statuses, only after you have done the work
-- Virtual-machine output: Wazuh version, agent id, hardening-audit text, restore tests
-- The Week 10 scope signatures, findings, and remediation rows
-- Your mock answers, after you try the questions
-- The capstone slides and the next-step plan
+Yes You Can Cyber Secure work is in [yes-you-can-cybersecure](yes-you-can-cybersecure/).
 
 ## Licence
 
-The existing [MIT Licence](LICENSE) applies to this repository.
+The [MIT Licence](LICENSE) applies to this repository.
