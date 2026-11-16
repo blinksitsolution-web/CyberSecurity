@@ -1,0 +1,55 @@
+@page {
+  size: A4;
+  margin: 16mm 15mm 18mm 15mm;
+  @bottom-center {
+    content: counter(page);
+    font-family: "Liberation Sans", sans-serif;
+    font-size: 9pt;
+    color: #5c6b7a;
+  }
+}
+
+body {
+  font-family: "Liberation Serif", serif;
+  font-size: 11pt;
+  line-height: 1.45;
+  color: #1b2836;
+}
+
+h1, h2, h3 {
+  font-family: "Liberation Sans", sans-serif;
+  color: #0f3d5e;
+  page-break-after: avoid;
+}
+
+h1 { font-size: 22pt; }
+h2 { font-size: 15pt; border-bottom: 1px solid #d5dee6; }
+h3 { font-size: 12.5pt; color: #1a5276; }
+
+pre {
+  background: #f4f7fa;
+  border-left: 3px solid #1f6f8b;
+  padding: 8px 10px;
+  white-space: pre-wrap;
+  page-break-inside: avoid;
+}
+
+code { font-family: "Liberation Mono", monospace; font-size: 9.2pt; }
+
+table { border-collapse: collapse; width: 100%; font-size: 10pt; page-break-inside: avoid; }
+th, td { border: 1px solid #c5d0da; padding: 4px 6px; vertical-align: top; }
+th { background: #0f3d5e; color: white; }
+
+blockquote {
+  background: #f7f1e8;
+  border-left: 3px solid #b86e00;
+  padding: 0.4em 0.8em;
+}
+
+.title-page { page-break-after: always; border-top: 14px solid #0f3d5e; padding-top: 16mm; }
+.title-page h1 { font-size: 26pt; }
+.checkpoint {
+  background: #eef6f1;
+  border-left: 3px solid #1e7a46;
+  padding: 6px 10px;
+}
