@@ -53,7 +53,7 @@ Skills below are the ones the submitted documents actually use. AWS and APIsec c
 | 4 | 26–30 Oct 2026 | Security management, risk, governance | [Group 4 GRC lab](week-04-security-management/group-4-grc-virtual-lab/) (team) |
 | 5 | 2–6 Nov 2026 | Application security | In progress |
 | 6 | 9–13 Nov 2026 | Database security | In progress |
-| 7 | 16–20 Nov 2026 | Cryptography | [Cryptography and secure web questions](week-07-cryptography/cryptography-and-secure-web-qa/) |
+| 7 | 16–20 Nov 2026 | Cryptography | [Cryptography and secure web questions](week-07-cryptography/cryptography-and-secure-web-qa/) · [Assignment 01, 16 Nov 2026](week-07-cryptography/assignment-01-crypto-fundamentals/) |
 | 8 | 23–27 Nov 2026 | Identity and access management | In progress |
 | 9 | 30 Nov–4 Dec 2026 | Cloud security | In progress |
 | 10 | 7–11 Dec 2026 | Authorised vulnerability assessment | In progress |
