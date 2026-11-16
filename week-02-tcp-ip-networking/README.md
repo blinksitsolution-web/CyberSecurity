@@ -2,4 +2,4 @@
 
 Nodes, connections, IPv4 and IPv6 addressing, the OSI and TCP/IP models, and common protocols and ports.
 
-Project in progress – will be added.
+- [Packet Tracer and Wireshark network lab](packet-tracer-and-wireshark-network-lab/)
